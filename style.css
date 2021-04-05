@@ -1,0 +1,631 @@
+body{
+    margin: auto;
+}
+
+/* CSS for Navigation */
+#navigation{
+    width: 100%;
+    height: 44px;
+    background: rgba(0,0,0,0.8);
+    display: block;
+    position: fixed;
+    top: 0;
+}
+.navigation-content-container{
+    margin: 0 12%;
+    position: relative;
+    height: 44px;
+    padding: 0 22px;
+}
+.navigation-content{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    height: 44px;
+    margin: 0 -10px;
+    padding: 0;
+}
+.nav-list-link-class{
+    font-size: 14px;
+    line-height: 3;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" ,sans-serif;
+    color: #f5f5f7;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 0 10px;
+    height: 44px;
+    opacity: .8;
+    background: no-repeat;
+    text-decoration: none;
+}
+.nav-list-link-class-text{
+    display: none;
+}
+#apple-list-link{
+    width: 16px;
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_apple_image__cxwwnrj0urau_large.svg");
+}
+#search-list-link{
+    width: 18px;
+    background-size: 20px 60px;  
+    padding: 0 10px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("Page\ Images/search.svg");
+}
+#shopping-list-link{
+    width: 16px;
+    background-size: 16px 44px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("https://www.apple.com/ac/globalnav/6/en_US/images/be15095f-5a20-57d0-ad14-cf4c638e223a/globalnav_bag_image__bmix8075eg4i_large.svg");
+}
+
+
+/* CSS for Covid News Bar */
+.covid-news-content-container{
+    display: block;
+    height: 44px;
+    width: 100%;
+    background-color: #0071E3;
+    margin-top: 44px;
+}
+.covid-news-content{
+    text-align: center;
+    padding: 12px 0;
+}
+#covid-news-link{
+    text-decoration: none;
+    color: white;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    line-height: 0.5;
+    font-weight: 400;
+    letter-spacing: -.01em;
+    font-size: 14px;
+}
+#covid-news-link:hover{
+    text-decoration: underline;
+}
+#covid-news-arw-link{
+    text-decoration: none;
+    color: white;
+    font-family: monospace;
+    line-height: 0.5;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+/* CSS for Shop Online Bar */
+.white-label-content{
+    display: block;
+    height: 44px;
+    width: 100%;
+    background-color: white;
+}
+.shop-online-content{
+    text-align: center;
+    padding: 12px 0;
+}
+.shop-online-content p{
+    font-size: 14px;
+    display: inline-block;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    color: #1d1d1f;
+    line-height: 1.4;
+    font-weight: 400;
+    letter-spacing: -.022em;
+    margin: 0;
+}
+#shop-online-content-link{
+    text-decoration: none;
+    color: #06c;
+}
+#shop-online-content-link:hover{
+    text-decoration: underline;
+}
+
+
+/* CSS for iPhone SE, iPhone11 iPhone Pro content */
+.iPhoneSE-content-container{
+    text-align: center;
+    background-color: #131314;
+    padding-top: 44px;
+    width: 100%;
+    display: block;
+}
+.iPhoneSE-content-heading{
+    width: 100%;
+    margin: 0;
+    display: block;
+    color: white;
+    background-color: #131314;
+    text-align: center;
+}
+.iPhoneSE-content-heading .headline{
+    color: #f5f5f7;
+    text-align: center;
+    display: block;
+    width: 100%;
+    font-size: 56px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    margin: 0 auto;
+    font-style: normal;
+}
+.iPhoneSE-content-heading .subhead{
+    margin: 6px 0 0 0;
+    color: #f5f5f7;
+    font-size: 28px;
+    line-height: 1.10722;
+    font-weight: 400;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    letter-spacing: .004em;
+    text-align: center;
+    display: block;
+}
+.iPhoneSE-content-heading .price-range{
+    color: #86868b;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    letter-spacing: -.022em;
+    margin: 0;
+    margin-top: 6.8px;
+}
+.iPhoneSE-content-heading .link-class, 
+.iPhone11-content-img .link-class, 
+.iPhonePro-content-heading .link-class{
+    text-align: center;
+    margin-top: 13.65px;
+}
+.iPhoneSE-content-heading .link-class .more-link, 
+.iPhone11-content-img .link-class .more-link, 
+.iPhonePro-content-heading .link-class .more-link,
+.apple-watch .link-class .more-link,
+.airpods .link-class .more-link,
+.apple-card .link-class .more-link,
+.apple-ipad .link-class .more-link{
+    margin-left: -4px;
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    line-height: 1.381;
+    text-align: center;
+    font-weight: 400;
+}
+.iPhoneSE-content-heading .link-class .more-link:hover, 
+.iPhone11-content-img .link-class .more-link:hover, 
+.iPhonePro-content-heading .link-class .more-link:hover,
+.apple-watch .link-class .more-link:hover,
+.airpods .link-class .more-link:hover,
+.apple-card .link-class .more-link:hover,
+.apple-ipad .link-class .more-link:hover{
+    text-decoration: underline;
+}
+.iPhoneSE-content-heading .link-class .buy-link, 
+.iPhone11-content-img .link-class .buy-link, 
+.iPhonePro-content-heading .link-class .buy-link,
+.apple-watch .link-class .buy-link,
+.airpods .link-class .buy-link{
+    margin-left: 35px;
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    line-height: 1.381;
+    text-align: center;
+    font-weight: 400;
+    padding-left: .3em;
+}
+.iPhoneSE-content-heading .link-class .buy-link:hover, 
+.iPhone11-content-img .link-class .buy-link:hover, 
+.iPhonePro-content-heading .link-class .buy-link:hover,
+.apple-watch .link-class .buy-link:hover,
+.airpods .link-class .buy-link:hover{
+    text-decoration: underline;
+}
+.link-class .arw{
+    text-decoration: none;
+    color: #2997ff;
+    font-family: monospace;
+    line-height: 0.5;
+    font-weight: 400;
+    font-size: 21px;
+    padding-left: .3em;
+}
+.iPhoneSE-content-img{
+    background-image: url("Page\ Images/iphone-se.jpg");
+    background-color: #131314;
+    height: 65vh;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    text-align: center;
+    overflow: hidden;
+    margin: 0 7%;
+    padding: 0;
+}
+
+
+/* CSS for iPhone 11 content*/
+.iPhone11-content-container{
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    margin-top: 10px;
+}
+.iPhone11-content-heading, 
+.iPhonePro-content-heading{
+    width: 100%;
+    padding-top: 44px;
+    display: block;
+    color: #1d1d1f;
+    background-color: #fbfbfd;
+    text-align: center;
+}
+.iPhone11-content-heading .headline, 
+.iPhonePro-content-heading .headline{
+    color: #1d1d1f;
+    text-align: center;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    font-size: 57px;
+    line-height: 1.07143;
+    font-weight: 600;
+    letter-spacing: -.05em;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    margin: 0 auto;
+    font-style: normal;
+}
+.iPhone11-content-heading .subhead, 
+.iPhonePro-content-heading .subhead{
+    margin: 6px 0 2px 0;
+    width: auto;
+    color: #1d1d1f;
+    font-size: 28px;
+    line-height: 1.107;
+    font-weight: 400;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    letter-spacing: 0.004em;
+    text-align: center;
+    display: block;
+}
+.iPhone11-content-img .price-range{
+    color: #86868b;
+    text-align: center;
+    font-size: 17px;
+    line-height: 1.47059;
+    font-weight: 400;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    letter-spacing: -.022em;
+    margin: 0;
+    margin-top: 6.8px;
+}
+.iPhone11-content-img{
+    background-image: url("Page\ Images/iphone-11.jpg");
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    z-index: 1;
+    overflow: hidden;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* CSS for iPhone Pro */
+.iPhonePro-content-img{
+    background-image: url("Page\ Images/ipad-pro.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    padding-top: 5em;
+    margin-bottom: 5px;
+}
+.iPhonePro-content-heading{
+    padding-top: 0;
+}
+
+
+/* CSS for Apple Products Table Contents */
+.apple-products-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    flex-flow: column;
+    justify-content: center;
+}
+
+/* First Row*/
+.first-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+/* Apple Approach.. */
+.apples-approach{
+    background-color: #f7f7f7af;
+    margin: 5px;
+    padding: 0;
+    text-align: center;
+}
+.apples-approach h1,
+.apple-card h1{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" ,sans-serif;
+    padding: 30px 15% 0 15%;
+    margin: 0;
+}
+.apples-approach a,
+.apple-tv a{
+    text-decoration: none;
+    text-align: center;
+    margin-top: 13.65px;
+    margin-left: -4px;
+    text-decoration: none;
+    color: #2997ff;
+    font-size: 21px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    line-height: 1.381;
+    text-align: center;
+    font-weight: 400;
+}
+.apples-approach .arw,
+.apple-tv .arw{
+    text-decoration: none;
+    color: #2997ff;
+    font-family: monospace;
+    line-height: 0.5;
+    font-weight: 400;
+    font-size: 21px;
+    padding-left: .3em;
+}
+.apples-approach a:hover,
+.apple-tv a:hover{
+    text-decoration: underline;
+}
+
+
+/* Apple Watch */
+.apple-watch{
+    background-color: #f7f7f7af;
+    margin: 5px;
+    padding: 1em 1.3em 0 0;
+    text-align: center;
+}
+.apple-watch .watch-logo-pic{
+    padding: 30px 10% 0 10%;
+    margin: 0;
+}
+.apple-watch p, 
+.airpods p,
+.apple-card p{
+    font-size: 20px;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    font-weight: 400;
+    padding: 0% 10%;
+    color: #1d1d1f;
+    line-height: 1.107;
+    font-weight: 400;
+    letter-spacing: 0.004em;
+    text-align: center;
+    display: block;
+}
+.apple-watch .link-class, 
+.airpods .link-class{
+    margin-bottom: 20px;
+}
+
+
+/* Second Row*/
+.second-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+}
+
+
+/* AirPods */
+.airpods{
+    background-color: #f7f7f7af;
+    margin: 5px;
+    text-align: center;
+    padding: 0 4.5em;
+}
+.airpods h1{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" ,sans-serif;
+    padding: 30px 15% 0 15%;
+    margin: 0;
+}
+.airpods img{
+    margin-top: 30px;
+}
+
+
+/* Apple TV */
+.apple-tv{
+    text-align: center;
+    margin: 5px;
+    background-color:#f7f7f7af;
+    background-image: url("Page\ Images/tv+.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* width: 45%; */
+    height: 80vh;
+}
+.apple-tv .logo{
+    text-align: center;
+    width: 100%;
+    margin: 2em 0;
+}
+.logo img{
+    width: 80px;
+}
+.apple-tv>img{
+    padding: 1em 11.8em 1em 11.8em;
+}
+.apple-tv a, .apple-tv .arw{
+    color: white;
+}
+.tv-link{
+    padding-left: 1em;
+}
+
+
+/* Third Row */
+.third-row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    margin-bottom: 5px;
+}
+
+
+/* Apple iPad */
+.apple-ipad{
+    text-align: center;
+    margin: 5px;
+    background-color:#f7f7f7af;
+    background-image: url("Page\ Images/ipad-mac.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 675px;
+    height: 80vh;
+}
+.apple-ipad h1{
+    font-size: 35px;
+    color: black;
+    text-align: center;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI" ,sans-serif;
+    padding: 30px 15% 0 15%;
+    margin: 0;
+}
+.apple-ipad .link-class{
+    padding-top: 20px;
+}
+
+
+/* Apple Card */
+.apple-card{
+    background-color: #f7f7f7af;
+    margin: 5px;
+    text-align: center;
+}
+.apple-card img{
+    margin-top:30px;
+    width: 360px;
+}
+
+
+/* CSS for Apple References */
+.references-container{
+    background-color: #f5f5f7;
+    margin: 0;
+}
+.apple-references{
+    margin: 0 15%;
+    color: #86868b;
+    font-size: 12px;
+    line-height: 1.33337;
+    font-weight: 400;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI",sans-serif;
+    text-align: left;
+}
+.apple-quality{
+    padding-top: 10px;
+    padding-bottom: 11px;
+}
+.underline{
+    height: 1px;
+    background-color: #86868b3f;
+}
+
+.footnote1 a{
+    color: #06c;
+    text-decoration: none;
+}
+.footnote1 a:hover{
+    text-decoration: underline;
+}
+.footnote2{
+    text-align: left;
+    display: flex;
+    flex-direction: row;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+.footnote2 ul{
+    list-style-type: none;
+    text-align: left;
+    padding: 0;
+}
+.footnote2 ul li{
+    display: inline;
+}
+.footnote2 ul li a{
+    text-decoration: none;
+    color: inherit;
+    margin: 0 10px;
+}
+.footnote2 p a{
+    text-decoration: none;
+    color: inherit;
+}
+.footnote2 p img{
+    width: 15px;
+}
+.footnote2 a:hover{
+    text-decoration: underline;
+}
+.apple-list-panel{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+.apple-list-panel ul {
+    list-style-type: none;
+    padding: 15px 0 15px 0;
+    margin: 0;
+}
+.apple-list-panel ul li{
+    margin-bottom: 13px;
+    margin-left: 15px;
+}
+.apple-list-panel ul li a{
+    text-decoration: none;
+    color: inherit;
+}.apple-list-panel ul li a:hover{
+    text-decoration: underline;
+}
